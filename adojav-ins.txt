@@ -1,0 +1,28 @@
+var adOpenForwardOnly = 0;
+var adOpenKeyset = 1;
+var adOpenDynamic = 2;
+var adOpenStatic = 3;
+
+//---- CursorOptionEnum Values ----
+var adHoldRecords = 0x00000100;
+var adMovePrevious = 0x00000200;
+var adAddNew = 0x01000400;
+var adDelete = 0x01000800;
+var adUpdate = 0x01008000;
+var adBookmark = 0x00002000;
+var adApproxPosition = 0x00004000;
+var adUpdateBatch = 0x00010000;
+var adResync = 0x00020000;
+var adNotify = 0x00040000;
+var adFind = 0x00080000;
+var adSeek = 0x00400000;
+var adIndex = 0x00800000;
+
+//---- LockTypeEnum Values ----
+var adLockReadOnly = 1;
+var adLockPessimistic = 2;
+var adLockOptimistic = 3;
+var adLockBatchOptimistic = 4;
+
+//---- ExecuteOptionEnum Values ----
+var adAsyncExecute = 0x00000010;
